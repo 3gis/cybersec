@@ -1,0 +1,114 @@
+ ---
+
+## Objective
+We are requesting a detailed analysis and intelligence update on relevant Advanced Persistent Threat (APT) groups and hacker groups that pose potential risks to our organization, industry, or sector. The objective is to understand their recent activities, tactics, techniques, and procedures (TTPs), as well as any potential indicators of compromise (IOCs).
+## Agent Egidijus Galginas Your mission
+  to do CTI analysis for the following HG or APT groups: 
+ - APT16 
+ - Inception 
+ - Tropic Trooper 
+ --- 
+  
+  The analysis must be done accordingly: 
+  Expected result: markdown file (.md) for each APT or HG group and +1 aditional file of comparative analysis env self evaluation 
+--------------------8<--------------------
+
+# Hacker group (HG) or APT (only assigned to you):
+
+
+Please follow the naming convention creating file for each hg or apt group you are analysing
+ name according groupname.md
+
+---------------8<---------------------------
+
+# Request for Information (RFI): Analysis of [HG Insert Group Name] 
+
+**To:** [Threat Intelligence Analyst's Name]  
+**From:** [Your Name/Department]  
+**Date:** [Insert Date]  
+**Subject:** Request for Intelligence on [Insert Group Name] 
+
+## Key Information Request:
+
+### Overview of [Insert Group Name]:
+   - **What are the recent activities** of [Insert Group Name]?
+   - **Motivations**: What are the key motivations driving [Insert Group Name] (e.g., espionage, financial, political)?
+   - **Attribution**: What is the confidence level in attributing [Insert Group Name] to specific nation-states, organizations, or non-state actors?
+
+### Tactics, Techniques, and Procedures (TTPs):
+   - **What TTPs is [Insert Group Name] currently using**? Please provide details of their known or evolving tactics based on the MITRE ATT&CK framework or similar models.
+   - **How are their techniques evolving** over time? Are there any new methods that should be of concern?
+
+### Indicators of Compromise (IOCs):
+   - Could you provide **current IOCs** related to [Insert Group Name] (e.g., IP addresses, domains, file hashes, malware signatures), list at least 10 IOCs if known?
+   - **Are there specific IOCs** we should integrate into our detection systems immediately to mitigate potential risks?
+
+### Vulnerabilities and Exploits:
+   - **Which vulnerabilities** is [Insert Group Name] known to exploit? Are there any critical vulnerabilities being used that we should prioritize patching?
+   - Are there any **zero-day vulnerabilities** associated with this group that are currently being exploited?
+
+### Recent Campaigns and Operations:
+   - **What recent campaigns** or operations has [Insert Group Name] been involved in, and are there any indications of ongoing or upcoming campaigns?
+   - How do these campaigns align with **geopolitical events** or regional tensions?
+
+
+## Additional Context and Questions:
+- **Attack Surface**: Based on our organization’s **infrastructure and digital footprint**, what specific risks do you see related to [Insert Group Name]?
+  
+- **Recommendations**: What **mitigation strategies** or defensive measures would you recommend based on the current activities and TTPs of [Insert Group Name]?
+- **Any known TTPs**: Please list executable programs, IP addresses etc.
+
+**Best regards**,  
+[Your Name]  
+[Your Position]  
+[Your Contact Information]
+
+---
+---------------8<---------------------------
+---
+
+make a separate file for overview.md with expected content:
+
+---
+---------------8<---------------------------
+---
+
+### Overview of Relevant APT Groups (only assigned):
+   - **Which APT groups have been active recently** and are known to target our industry or organization?
+   - **Motivations**: What are the key motivations (e.g., espionage, financial, political) of these APT groups?
+   - **Attribution**: What is the level of confidence regarding attribution of these APT groups to specific nation-states or non-state actors?
+   - **TTP**: Common and or similar TTPs used by all three analyzed groups.
+
+### Tactics, Techniques, and Procedures (TTPs):
+   - **What TTPs are these APT groups currently using**? Please include the most up-to-date TTPs based on the MITRE ATT&CK framework or other threat models.
+   - **How are these TTPs evolving**, and what should we watch for in terms of new or novel techniques?
+
+### Indicators of Compromise (IOCs):
+   - Could you provide **current IOCs** related to these APT groups (e.g., IP addresses, domains, file hashes, malware signatures)?
+   - **Are there any specific IOCs** that we should integrate into our detection mechanisms immediately?
+
+### Specific Hacker Groups:
+   - Besides APT groups, are there any **cybercriminal or hacker groups** that pose a significant risk to our organization or sector?
+   - **What recent campaigns** or operations have these groups been involved in that may affect us?
+
+### Vulnerabilities and Exploits:
+   - Are there any known **vulnerabilities or exploits** currently being used by APT groups or hackers that we should prioritize patching or mitigating?
+   - **Zero-day vulnerabilities**: Are there any zero-day exploits in circulation that are being actively used by these threat actors?
+
+### Geopolitical and Strategic Impacts:
+   - Are there any **geopolitical events or tensions** that are likely to increase activity from these groups?
+   - How might **regional conflicts or international sanctions** affect the targeting patterns of these threat actors?
+
+
+## Additional Context and Questions:
+- **Attack Surface**: Given the organization's current **infrastructure and digital footprint**, which of these threats do you believe are most relevant to our current attack surface?
+  
+- **Recommendations**: Based on your intelligence, what **specific recommendations** would you make for hardening our defenses or enhancing our monitoring capabilities against these groups?
+
+**Best regards**,  
+[Your Name]  
+[Your Position]  
+[Your Contact Information]
+
+---
+---------------8<---------------------------
